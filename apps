@@ -1,0 +1,38 @@
+plasma-meta # main meta package for KDE apps
+linux-lts # for whatever reason S0 sleep doesn't work at all, and S3 only consistently works on lts.
+
+
+# KDE DE addons 
+KCalc Kate Konsole # KDE's calculator, Advanced Text Editor, and Terminal in that order
+kio-admin # Adds a button to Open Dolphin as Admin
+kio-extras # Number of useful features for Dolphin 
+kwin-effects-forceblur # Kwin Better Blur 
+qimgv # Useful image viewer, although you can find one online 
+spectacle # Linux counterpart to Windows Snip & Sketch 
+ffmpegthumbs # thumbnails for Dolphin videos 
+kdegraphics-thumbnailers # thumbnails for Dolphin PDFs 
+7zip 
+fcitx5 # Language support for KDE 
+fcitx5-chinese-addons # Chinese IME for fcitx5
+firewalld # firewall. need I say more?
+bluedevil # KDE Bluetooth 
+
+
+# Arch Addons
+yay # AUR Helper 
+timeshift
+timeshift-systemd-timer #activates timeshift on boot, since didn't set smth up for timeshift to work standalone 
+reflector # fetches fastest mirror lists for pacman 
+auto-cpufreq # incompatible with power-profiles-daemon 
+power-profiles-daemon # make sure to disable this if using auto-cpufreq 
+neovim # vim addon? idk for sure
+vim # i like nano better, but ok
+nano # CLI text editor, my personal fav.
+flatpak # Some flatpaks have problems with fractional scaling, particularly if using Wayland as compositor. Fix by using flatseal and setting apps to use X11. Also, make sure scaling by application is enabled in KDE display config.
+flatseal # Configuration tool for flatpak installs, including fallback to X11, or force Wayland.
+xdg-desktop-portal-kde # Allows using KDE's file picker in apps like Firefox
+xdg-desktop-portal-gtk # Helps with flatpak scaling problem. Didn't work entirely for me, but worked for a couple GNOME apps.
+expac # pacman addon that allows you to sort and see packages installed by time
+preload # seems to work hit or miss, but works for the terminal :>
+networkmanager 
+ffmpeg 
